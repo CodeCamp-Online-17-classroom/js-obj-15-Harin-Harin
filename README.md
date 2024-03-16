@@ -1,9 +1,15 @@
-# js-lab-60
-### Lab60 Object: Guess Result2
-บรรทัดที่มี * ให้ผลลัพธ์เป็นอะไร เพราะอะไร
+# js-lab-61
+### Lab61 Object: Clone Object1
+- ให้สร้าง Object ที่มี key และ value เหมือน notebook 
+- โดยวิธี for ... in loop และ Object.assign
 
 ```JavaScript
-const user = { name: 'Jack', role: 'ADMIN' };
-const admin = { name: 'Jack', role: 'ADMIN' };
-console.log(user === admin); // *
+const notebook = {
+  brand: 'ASUS',
+  model: 'Vivobook D413IA-EB303TS',
+  processor: 'AMD Ryzen 7 4700U 3.6GHz',
+  graphics: 'Integrated Graphics : AMD Radeon Graphics',
+  ram: '8GB DDR4 Onboard',
+  storage: '512GB PCIe NVMe M.2 SSD'
+};
 ```

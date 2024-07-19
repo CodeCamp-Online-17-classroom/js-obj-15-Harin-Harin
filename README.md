@@ -2,6 +2,7 @@
 ### Lab61 Object: Clone Object1
 - ให้สร้าง Object ที่มี key และ value เหมือน notebook 
 - โดยวิธี for ... in loop และ Object.assign
+- หริณ มาเบ้า
 
 ```JavaScript
 const notebook = {
